@@ -1,18 +1,19 @@
 # Visual Studio
 .vs/
-*.user
 *.suo
+*.user
+
+# Build outputs
 bin/
 obj/
-
-# Entity Framework
-Migrations/
 
 # Angular
 node_modules/
 dist/
 .angular/
-.env
+
+# EF Core
+Migrations/
 
 # OS
 .DS_Store

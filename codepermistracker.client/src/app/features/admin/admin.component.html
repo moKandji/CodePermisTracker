@@ -1,0 +1,58 @@
+<!-- Formulaire d’ajout -->
+<form class="space-y-4 mb-6" (ngSubmit)="addTask()">
+  <h3 class="text-lg font-semibold">Nouvelle tâche administrative</h3>
+
+  <div class="grid md:grid-cols-3 gap-4">
+    <input type="text"
+           class="border rounded px-2 py-1"
+           placeholder="Libellé de la tâche"
+           [(ngModel)]="newTask.label"
+           name="label"
+           required />
+
+    <input type="text"
+           class="border rounded px-2 py-1"
+           placeholder="Notes (facultatif)"
+           [(ngModel)]="newTask.notes"
+           name="notes" />
+
+    <label class="flex items-center gap-2">
+      <input type="checkbox"
+             [(ngModel)]="newTask.completed"
+             name="completed" />
+      Complétée
+    </label>
+  </div>
+
+  <button type="submit"
+          class="bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700">
+    Ajouter
+  </button>
+</form>
+
+<!-- Liste des tâches -->
+<div class="grid gap-4">
+  <div *ngFor="let task of tasks"
+       class="border rounded-xl p-4 shadow space-y-2 bg-white">
+    <div class="flex items-center justify-between">
+      <label class="flex items-center gap-2">
+        <input type="checkbox"
+               [(ngModel)]="task.completed"
+               (change)="save(task)" />
+        <span>{{ task.label }}</span>
+      </label>
+
+      <button (click)="delete(task)"
+              class="text-red-600 font-bold hover:text-red-800"
+              title="Supprimer">
+        ✕
+      </button>
+    </div>
+
+    <input type="text"
+           class="w-full border rounded px-2 py-1 text-sm"
+           [(ngModel)]="task.notes"
+           (change)="save(task)"
+           placeholder="Note complémentaire (ex : reçu ANTS, copie mail...)" />
+  </div>
+</div>

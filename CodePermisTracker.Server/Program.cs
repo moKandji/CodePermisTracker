@@ -21,16 +21,16 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddAuthorization();
 // (authentification désactivée pour l'instant)
 
-//// CORS si Angular est hébergé ailleurs
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowAll", policy =>
-//    {
-//        policy.AllowAnyOrigin()
-//              .AllowAnyMethod()
-//              .AllowAnyHeader();
-//    });
-//});
+// CORS si Angular est hébergé ailleurs
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 

@@ -1,0 +1,36 @@
+<div class="p-4 space-y-6">
+  <h2 class="text-2xl font-bold">Suivi des heures de conduite</h2>
+
+  <div class="grid gap-6">
+    <div *ngFor="let session of sessions"
+         class="border rounded-xl p-4 shadow space-y-4 bg-white">
+      <div class="flex items-center justify-between">
+        <span class="font-semibold text-lg">{{ session.label }}</span>
+        <select [(ngModel)]="session.status"
+                class="border rounded px-2 py-1"
+                (change)="save(session)">
+          <option *ngFor="let s of statuses" [value]="s">{{ s }}</option>
+        </select>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm font-medium mb-1">Date</label>
+          <input type="date"
+                 class="w-full border rounded px-2 py-1"
+                 [(ngModel)]="session.date"
+                 (change)="save(session)" />
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Notes</label>
+          <input type="text"
+                 class="w-full border rounded px-2 py-1"
+                 [(ngModel)]="session.notes"
+                 (change)="save(session)"
+                 placeholder="Nom de l'instructeur, remarque..." />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

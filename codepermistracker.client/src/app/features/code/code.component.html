@@ -1,0 +1,26 @@
+<div class="p-4 space-y-6">
+  <h2 class="text-2xl font-bold">Préparation au Code de la route</h2>
+
+  <div class="grid gap-6">
+    <div *ngFor="let task of tasks"
+         class="border rounded-xl p-4 shadow space-y-4 bg-white">
+      <div class="flex items-center justify-between">
+        <span class="font-semibold text-lg">{{ task.label }}</span>
+        <select [(ngModel)]="task.status"
+                class="border rounded px-2 py-1"
+                (change)="save(task)">
+          <option *ngFor="let s of statuses" [value]="s">{{ s }}</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Notes</label>
+        <input type="text"
+               class="w-full border rounded px-2 py-1"
+               [(ngModel)]="task.notes"
+               (change)="save(task)"
+               placeholder="Exemple : erreurs à retravailler..." />
+      </div>
+    </div>
+  </div>
+</div>
