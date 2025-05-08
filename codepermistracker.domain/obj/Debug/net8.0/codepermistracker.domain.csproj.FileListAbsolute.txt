@@ -1,0 +1,11 @@
+C:\Projets\CodePermisTracker\codepermistracker.domain\bin\Debug\net8.0\codepermistracker.domain.deps.json
+C:\Projets\CodePermisTracker\codepermistracker.domain\bin\Debug\net8.0\codepermistracker.domain.dll
+C:\Projets\CodePermisTracker\codepermistracker.domain\bin\Debug\net8.0\codepermistracker.domain.pdb
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.AssemblyInfoInputs.cache
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.AssemblyInfo.cs
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.csproj.CoreCompileInputs.cache
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.dll
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\refint\codepermistracker.domain.dll
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.pdb
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\ref\codepermistracker.domain.dll

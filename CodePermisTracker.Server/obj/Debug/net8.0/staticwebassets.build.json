@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "IqMyXXaI2xd1FD2SxvTlv5JNC3h+tQPzRlrVJM6nIxM=",
+  "Source": "CodePermisTracker.Server",
+  "BasePath": "_content/CodePermisTracker.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\codepermistracker.client.esproj",
+      "Version": 2,
+      "Source": "codepermistracker.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

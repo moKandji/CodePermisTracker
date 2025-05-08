@@ -1,0 +1,15 @@
+C:\Projets\CodePermisTracker\codepermistracker.application\bin\Debug\net8.0\codepermistracker.application.deps.json
+C:\Projets\CodePermisTracker\codepermistracker.application\bin\Debug\net8.0\codepermistracker.application.dll
+C:\Projets\CodePermisTracker\codepermistracker.application\bin\Debug\net8.0\codepermistracker.application.pdb
+C:\Projets\CodePermisTracker\codepermistracker.application\bin\Debug\net8.0\codepermistracker.domain.dll
+C:\Projets\CodePermisTracker\codepermistracker.application\bin\Debug\net8.0\codepermistracker.domain.pdb
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codepermistracker.application.csproj.AssemblyReference.cache
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codepermistracker.application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codepermistracker.application.AssemblyInfoInputs.cache
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codepermistracker.application.AssemblyInfo.cs
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codepermistracker.application.csproj.CoreCompileInputs.cache
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codeperm.DB99210F.Up2Date
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codepermistracker.application.dll
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\refint\codepermistracker.application.dll
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\codepermistracker.application.pdb
+C:\Projets\CodePermisTracker\codepermistracker.application\obj\Debug\net8.0\ref\codepermistracker.application.dll

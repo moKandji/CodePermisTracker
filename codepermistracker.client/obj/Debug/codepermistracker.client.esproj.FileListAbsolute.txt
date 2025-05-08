@@ -1,0 +1,1 @@
+C:\Projets\CodePermisTracker\codepermistracker.client\obj\Debug\codepermistracker.client.esproj.CoreCompileInputs.cache
