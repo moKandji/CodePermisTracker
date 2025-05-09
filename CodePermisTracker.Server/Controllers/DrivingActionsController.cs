@@ -9,6 +9,7 @@ namespace CodePermisTracker.Server.Controllers;
 public class DrivingActionsController : ControllerBase
 {
     private readonly IDrivingActionRepository _repo;
+
     public DrivingActionsController(IDrivingActionRepository repo)
     {
         _repo = repo;
@@ -29,14 +30,14 @@ public class DrivingActionsController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<DrivingAction>> Create(DrivingAction action)
+    public async Task<ActionResult<DrivingAction>> Create([FromBody] DrivingAction action) 
     {
         var created = await _repo.AddAsync(action);
         return CreatedAtAction(nameof(GetAll), new { id = created.Id }, created);
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id, DrivingAction action)
+    public async Task<IActionResult> Update([FromRoute] int id, [FromBody] DrivingAction action)
     {
         if (id != action.Id) return BadRequest();
         await _repo.UpdateAsync(action);
@@ -44,7 +45,7 @@ public class DrivingActionsController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
+    public async Task<IActionResult> Delete([FromRoute] int id) 
     {
         await _repo.DeleteAsync(id);
         return NoContent();

@@ -30,14 +30,14 @@ public class CodeTasksController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<CodeTask>> Create(CodeTask task)
+    public async Task<ActionResult<CodeTask>> Create([FromBody] CodeTask task) 
     {
         var created = await _repo.AddAsync(task);
         return CreatedAtAction(nameof(GetAll), new { id = created.Id }, created);
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id, CodeTask task)
+    public async Task<IActionResult> Update([FromRoute] int id, [FromBody] CodeTask task) 
     {
         if (id != task.Id) return BadRequest();
         await _repo.UpdateAsync(task);
@@ -45,7 +45,7 @@ public class CodeTasksController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
+    public async Task<IActionResult> Delete([FromRoute] int id) 
     {
         await _repo.DeleteAsync(id);
         return NoContent();
