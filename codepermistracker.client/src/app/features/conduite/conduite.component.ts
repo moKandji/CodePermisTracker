@@ -16,6 +16,14 @@ export class ConduiteComponent implements OnInit {
   sessions: DrivingAction[] = [];
   readonly expectedSessionCount = 17;
   readonly statuses = Object.values(DrivingStatus);
+  readonly DrivingStatus = DrivingStatus;
+
+  newSession: Omit<DrivingAction, 'id'> = {
+    label: '',
+    date: '',
+    notes: '',
+    status: DrivingStatus.NonCommence
+  };
 
   constructor(private drivingApi: DrivingActionApiService) { }
 
@@ -45,9 +53,43 @@ export class ConduiteComponent implements OnInit {
     });
   }
 
+  addSession(): void {
+    const trimmed = this.newSession.label.trim();
+    if (!trimmed) return;
+
+    const sessionToAdd: DrivingAction = {
+      id: 0,
+      label: trimmed,
+      date: this.newSession.date ?? '',
+      notes: this.newSession.notes ?? '',
+      status: this.newSession.status ?? DrivingStatus.NonCommence
+    };
+
+    this.drivingApi.add(sessionToAdd).subscribe(added => {
+      this.sessions.push(added);
+      this.newSession = { label: '', date: '', notes: '', status: DrivingStatus.NonCommence };
+    });
+  }
+
   save(session: DrivingAction): void {
     if (session.id > 0) {
       this.drivingApi.update(session.id, session).subscribe();
+    }
+  }
+
+  editSession(session: DrivingAction): void {
+    const newLabel = prompt('Modifier le libellé de la session :', session.label);
+    if (newLabel !== null && newLabel.trim() !== '') {
+      session.label = newLabel.trim();
+      this.save(session);
+    }
+  }
+
+  delete(session: DrivingAction): void {
+    if (session.id > 0) {
+      this.drivingApi.delete(session.id).subscribe(() => {
+        this.sessions = this.sessions.filter(s => s.id !== session.id);
+      });
     }
   }
 }

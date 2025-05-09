@@ -68,6 +68,14 @@ export class AdminComponent implements OnInit {
     });
   }
 
+  editTask(task: AdminTask): void {
+    const newLabel = prompt('Modifier le libellé de la tâche :', task.label);
+    if (newLabel !== null && newLabel.trim() !== '') {
+      task.label = newLabel.trim();
+      this.save(task);
+    }
+  }
+
   delete(task: AdminTask): void {
     this.adminApi.delete(task.id).subscribe(() => {
       this.tasks = this.tasks.filter(t => t.id !== task.id);

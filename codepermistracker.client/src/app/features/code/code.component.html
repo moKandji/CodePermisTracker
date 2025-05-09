@@ -1,11 +1,46 @@
-<div class="p-4 space-y-6">
-  <h2 class="text-2xl font-bold">Préparation au Code de la route</h2>
+<div class="p-6 space-y-8">
+  <h2 class="text-3xl font-bold text-center">Préparation au Code de la Route</h2>
 
+  <!-- Formulaire d'ajout de tâche -->
+  <form class="space-y-4 border p-4 rounded-xl shadow bg-white" (ngSubmit)="addTask()">
+    <h3 class="text-xl font-semibold">Ajouter une nouvelle tâche</h3>
+
+    <div class="grid md:grid-cols-3 gap-4">
+      <input type="text"
+             class="border rounded px-3 py-2 w-full"
+             placeholder="Libellé de la tâche"
+             [(ngModel)]="newTask.label"
+             name="label"
+             required />
+
+      <input type="text"
+             class="border rounded px-3 py-2 w-full"
+             placeholder="Notes (facultatif)"
+             [(ngModel)]="newTask.notes"
+             name="notes" />
+
+      <select [(ngModel)]="newTask.status"
+              name="status"
+              class="border rounded px-3 py-2 w-full">
+        <option *ngFor="let s of statuses" [value]="s">{{ s }}</option>
+      </select>
+    </div>
+
+    <button type="submit"
+            class="bg-green-600 text-white px-5 py-2 rounded hover:bg-green-700 transition">
+      Ajouter la tâche
+    </button>
+  </form>
+
+  <!-- Liste des tâches existantes -->
   <div class="grid gap-6">
     <div *ngFor="let task of tasks"
          class="border rounded-xl p-4 shadow space-y-4 bg-white">
       <div class="flex items-center justify-between">
-        <span class="font-semibold text-lg">{{ task.label }}</span>
+        <span class="font-semibold text-lg"
+              [class.line-through]="task.status === DrivingStatus.Complete">
+          {{ task.label }}
+        </span>
         <select [(ngModel)]="task.status"
                 class="border rounded px-2 py-1"
                 (change)="save(task)">
@@ -20,6 +55,20 @@
                [(ngModel)]="task.notes"
                (change)="save(task)"
                placeholder="Exemple : erreurs à retravailler..." />
+      </div>
+
+      <div class="flex justify-end gap-2">
+        <button (click)="editTask(task)"
+                class="text-yellow-600 font-bold hover:text-yellow-800 transition"
+                title="Modifier">
+          ✎ Modifier
+        </button>
+
+        <button (click)="delete(task)"
+                class="text-red-600 font-bold hover:text-red-800 transition"
+                title="Supprimer">
+          ✕ Supprimer
+        </button>
       </div>
     </div>
   </div>

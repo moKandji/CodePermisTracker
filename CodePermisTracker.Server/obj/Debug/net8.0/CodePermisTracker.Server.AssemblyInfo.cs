@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodePermisTracker.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9656055a7e84606c824da6a3b2880a9ee15330f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b17f87766bcc3c1ff3bdff58306f095860c77e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodePermisTracker.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodePermisTracker.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

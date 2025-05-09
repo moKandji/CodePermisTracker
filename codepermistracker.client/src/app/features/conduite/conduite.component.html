@@ -1,11 +1,55 @@
-<div class="p-4 space-y-6">
-  <h2 class="text-2xl font-bold">Suivi des heures de conduite</h2>
+<div class="p-6 space-y-8">
+  <h2 class="text-3xl font-bold text-center">Suivi des Heures de Conduite</h2>
 
+  <!-- Formulaire d'ajout de session -->
+  <form class="space-y-4 border p-4 rounded-xl shadow bg-white" (ngSubmit)="addSession()">
+    <h3 class="text-xl font-semibold">Ajouter une nouvelle session</h3>
+
+    <div class="grid md:grid-cols-3 gap-4">
+      <input type="text"
+             class="border rounded px-3 py-2 w-full"
+             placeholder="Libellé de la session (ex: Heure 1)"
+             [(ngModel)]="newSession.label"
+             name="label"
+             required />
+
+      <input type="date"
+             class="border rounded px-3 py-2 w-full"
+             [(ngModel)]="newSession.date"
+             name="date"
+             required />
+
+      <select [(ngModel)]="newSession.status"
+              name="status"
+              class="border rounded px-3 py-2 w-full">
+        <option *ngFor="let s of statuses" [value]="s">{{ s }}</option>
+      </select>
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium mb-1">Notes (facultatif)</label>
+      <input type="text"
+             class="w-full border rounded px-3 py-2"
+             [(ngModel)]="newSession.notes"
+             name="notes"
+             placeholder="Nom de l'instructeur, remarque..." />
+    </div>
+
+    <button type="submit"
+            class="bg-green-600 text-white px-5 py-2 rounded hover:bg-green-700 transition">
+      Ajouter la session
+    </button>
+  </form>
+
+  <!-- Liste des sessions existantes -->
   <div class="grid gap-6">
     <div *ngFor="let session of sessions"
          class="border rounded-xl p-4 shadow space-y-4 bg-white">
       <div class="flex items-center justify-between">
-        <span class="font-semibold text-lg">{{ session.label }}</span>
+        <span class="font-semibold text-lg"
+              [class.line-through]="session.status === DrivingStatus.Complete">
+          {{ session.label }}
+        </span>
         <select [(ngModel)]="session.status"
                 class="border rounded px-2 py-1"
                 (change)="save(session)">
@@ -30,6 +74,20 @@
                  (change)="save(session)"
                  placeholder="Nom de l'instructeur, remarque..." />
         </div>
+      </div>
+
+      <div class="flex justify-end gap-2">
+        <button (click)="editSession(session)"
+                class="text-yellow-600 font-bold hover:text-yellow-800 transition"
+                title="Modifier">
+          ✎ Modifier
+        </button>
+
+        <button (click)="delete(session)"
+                class="text-red-600 font-bold hover:text-red-800 transition"
+                title="Supprimer">
+          ✕ Supprimer
+        </button>
       </div>
     </div>
   </div>
