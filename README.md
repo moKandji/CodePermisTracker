@@ -1,6 +1,6 @@
 # Code Permis Tracker
 
-Application Angular Standalone pour le **suivi de l'obtention du code de la route et du permis B en France**, dans le cadre d'une formation en auto-école en ligne (*En Voiture Simone*).
+Application ASP.NET Core, SQL Server & Angular Standalone pour le **suivi de l'obtention du code de la route et du permis B en France**, dans le cadre d'une formation en auto-école en ligne (*En Voiture Simone*).
 
 ---
 
