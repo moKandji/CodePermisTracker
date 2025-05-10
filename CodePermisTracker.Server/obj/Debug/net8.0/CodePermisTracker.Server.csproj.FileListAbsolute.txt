@@ -90,7 +90,6 @@ C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\staticweb
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CodePermisTracker.Server.props
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CodePermisTracker.Server.props
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\CodePerm.A81077E8.Up2Date
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\CodePermisTracker.Server.dll
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\refint\CodePermisTracker.Server.dll
@@ -104,3 +103,4 @@ C:\Projets\CodePermisTracker\CodePermisTracker.Server\bin\Debug\net8.0\Microsoft
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\CodePermisTracker.Server.sourcelink.json
+C:\Projets\CodePermisTracker\CodePermisTracker.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

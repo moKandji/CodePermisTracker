@@ -1,27 +1,26 @@
-<!-- Contenu principal -->
-<div class="p-4 space-y-6">
-  <h2 class="text-2xl font-bold">Tableau de bord</h2>
+<div class="p-8 space-y-8">
+  <h2 class="text-3xl font-bold text-center text-gray-800">Tableau de bord</h2>
 
-  <div class="space-y-4">
-    <div>
-      <h3 class="font-semibold">Tâches administratives : {{ adminProgress }}%</h3>
-      <div class="h-4 bg-gray-200 rounded">
-        <div class="h-4 bg-blue-600 rounded" [style.width.%]="adminProgress"></div>
-      </div>
+  <div class="flex justify-center space-x-8 mt-8">
+    <!-- Tâches Admin -->
+    <div class="border rounded-2xl p-6 w-72 h-80 shadow-lg bg-white flex flex-col items-center space-y-4">
+      <h3 class="text-lg font-semibold text-gray-700">Tâches Administratives</h3>
+      <canvas baseChart [data]="adminChartData" [type]="'doughnut'" [options]="chartOptions"></canvas>
+      <p class="text-base font-medium text-gray-600">{{ adminProgress }}% complété</p>
     </div>
 
-    <div>
-      <h3 class="font-semibold">Heures de conduite : {{ drivingProgress }}%</h3>
-      <div class="h-4 bg-gray-200 rounded">
-        <div class="h-4 bg-green-600 rounded" [style.width.%]="drivingProgress"></div>
-      </div>
+    <!-- Heures de Conduite -->
+    <div class="border rounded-2xl p-6 w-72 h-80 shadow-lg bg-white flex flex-col items-center space-y-4">
+      <h3 class="text-lg font-semibold text-gray-700">Heures de Conduite</h3>
+      <canvas baseChart [data]="drivingChartData" [type]="'doughnut'" [options]="chartOptions"></canvas>
+      <p class="text-base font-medium text-gray-600">{{ drivingProgress }}% complété</p>
     </div>
 
-    <div>
-      <h3 class="font-semibold">Préparation au Code : {{ codeProgress }}%</h3>
-      <div class="h-4 bg-gray-200 rounded">
-        <div class="h-4 bg-purple-600 rounded" [style.width.%]="codeProgress"></div>
-      </div>
+    <!-- Code de la route -->
+    <div class="border rounded-2xl p-6 w-72 h-80 shadow-lg bg-white flex flex-col items-center space-y-4">
+      <h3 class="text-lg font-semibold text-gray-700">Code de la route</h3>
+      <canvas baseChart [data]="codeChartData" [type]="'doughnut'" [options]="chartOptions"></canvas>
+      <p class="text-base font-medium text-gray-600">{{ codeProgress }}% complété</p>
     </div>
   </div>
 </div>

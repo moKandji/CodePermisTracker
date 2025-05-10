@@ -17,3 +17,4 @@ C:\Projets\CodePermisTracker\codepermistracker.infrastructure\obj\Debug\net8.0\r
 C:\Projets\CodePermisTracker\codepermistracker.infrastructure\obj\Debug\net8.0\codepermistracker.infrastructure.pdb
 C:\Projets\CodePermisTracker\codepermistracker.infrastructure\obj\Debug\net8.0\codepermistracker.infrastructure.genruntimeconfig.cache
 C:\Projets\CodePermisTracker\codepermistracker.infrastructure\obj\Debug\net8.0\ref\codepermistracker.infrastructure.dll
+C:\Projets\CodePermisTracker\codepermistracker.infrastructure\obj\Debug\net8.0\codepermistracker.infrastructure.sourcelink.json

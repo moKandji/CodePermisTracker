@@ -1,0 +1,28 @@
+nav {
+  background-color: #1f2937;
+  color: white;
+  padding: 1rem 1.5rem; /* px-6 py-4 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+  nav a {
+    text-decoration: none;
+    font-size: 1.2rem; 
+    color: white; /* texte en blanc */
+    transition: color 0.3s;
+  }
+
+   nav a:hover {
+      opacity: 0.8;
+      color: blue; /* Bleu au survol */
+   }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; 
+    align-items: center;
+  }

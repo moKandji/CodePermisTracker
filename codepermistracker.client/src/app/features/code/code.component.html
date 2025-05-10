@@ -1,75 +1,72 @@
-<div class="p-6 space-y-8">
-  <h2 class="text-3xl font-bold text-center">Préparation au Code de la Route</h2>
+<div class="p-6 space-y-8 max-w-2xl mx-auto">
+  <h2 class="text-3xl font-bold text-center text-gray-800">Préparation au Code de la Route</h2>
 
-  <!-- Formulaire d'ajout de tâche -->
-  <form class="space-y-4 border p-4 rounded-xl shadow bg-white" (ngSubmit)="addTask()">
-    <h3 class="text-xl font-semibold">Ajouter une nouvelle tâche</h3>
+  <!-- Formulaire d'ajout -->
+  <form #taskForm="ngForm"
+        class="border p-8 rounded-2xl shadow-lg bg-white space-y-6"
+        (ngSubmit)="addTask()">
 
-    <div class="grid md:grid-cols-3 gap-4">
-      <input type="text"
-             class="border rounded px-3 py-2 w-full"
-             placeholder="Libellé de la tâche"
-             [(ngModel)]="newTask.label"
-             name="label"
-             required />
+    <h3 class="text-2xl font-semibold text-gray-700">Ajouter une nouvelle tâche</h3>
 
-      <input type="text"
-             class="border rounded px-3 py-2 w-full"
-             placeholder="Notes (facultatif)"
-             [(ngModel)]="newTask.notes"
-             name="notes" />
+    <!-- Première ligne : Libellé & État -->
+    <div class="grid grid-cols-2 gap-6">
+      <div class="flex flex-col">
+        <label class="mb-2 text-base font-medium text-gray-700">Libellé *</label>
+        <input type="text"
+               class="border rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+               [ngClass]="{'border-red-500': taskForm.submitted && !newTask.label}"
+               [(ngModel)]="newTask.label"
+               name="label"
+               required>
+        <span *ngIf="taskForm.submitted && !newTask.label" class="text-red-500 text-xs mt-1">Ce champ est requis.</span>
+      </div>
 
-      <select [(ngModel)]="newTask.status"
-              name="status"
-              class="border rounded px-3 py-2 w-full">
-        <option *ngFor="let s of statuses" [value]="s">{{ s }}</option>
-      </select>
-    </div>
-
-    <button type="submit"
-            class="bg-green-600 text-white px-5 py-2 rounded hover:bg-green-700 transition">
-      Ajouter la tâche
-    </button>
-  </form>
-
-  <!-- Liste des tâches existantes -->
-  <div class="grid gap-6">
-    <div *ngFor="let task of tasks"
-         class="border rounded-xl p-4 shadow space-y-4 bg-white">
-      <div class="flex items-center justify-between">
-        <span class="font-semibold text-lg"
-              [class.line-through]="task.status === DrivingStatus.Complete">
-          {{ task.label }}
-        </span>
-        <select [(ngModel)]="task.status"
-                class="border rounded px-2 py-1"
-                (change)="save(task)">
+      <div class="flex flex-col">
+        <label class="mb-2 text-base font-medium text-gray-700">État *</label>
+        <select class="border rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                [ngClass]="{'border-red-500': taskForm.submitted && !newTask.status}"
+                [(ngModel)]="newTask.status"
+                name="status"
+                required>
+          <option value="">Sélectionner...</option>
           <option *ngFor="let s of statuses" [value]="s">{{ s }}</option>
         </select>
-      </div>
-
-      <div>
-        <label class="block text-sm font-medium mb-1">Notes</label>
-        <input type="text"
-               class="w-full border rounded px-2 py-1"
-               [(ngModel)]="task.notes"
-               (change)="save(task)"
-               placeholder="Exemple : erreurs à retravailler..." />
-      </div>
-
-      <div class="flex justify-end gap-2">
-        <button (click)="editTask(task)"
-                class="text-yellow-600 font-bold hover:text-yellow-800 transition"
-                title="Modifier">
-          ✎ Modifier
-        </button>
-
-        <button (click)="delete(task)"
-                class="text-red-600 font-bold hover:text-red-800 transition"
-                title="Supprimer">
-          ✕ Supprimer
-        </button>
+        <span *ngIf="taskForm.submitted && !newTask.status" class="text-red-500 text-xs mt-1">Ce champ est requis.</span>
       </div>
     </div>
-  </div>
+
+    <!-- Notes -->
+    <div class="flex flex-col">
+      <label class="mb-2 text-base font-medium text-gray-700">Notes</label>
+      <input type="text"
+             class="border rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+             [(ngModel)]="newTask.notes"
+             name="notes">
+    </div>
+
+    <!-- Bouton Ajouter -->
+    <div class="text-center mt-6">
+      <button type="submit"
+              class="bg-green-600 text-white px-6 py-3 rounded-2xl hover:bg-green-700 transition text-lg shadow-md">
+        Ajouter
+      </button>
+    </div>
+  </form>
+
+  <!-- Historique -->
+  <h3 *ngIf="tasks.length > 0" class="text-2xl font-semibold text-gray-700 mt-8">Historique</h3>
+  <ul *ngIf="tasks.length > 0" class="space-y-4">
+    <li *ngFor="let task of tasks"
+        class="border rounded-2xl p-4 shadow bg-white flex justify-between items-center">
+      <div>
+        <p class="font-semibold text-gray-800">{{ task.label }}</p>
+        <p class="text-sm text-gray-600">{{ task.notes }}</p>
+      </div>
+      <span class="px-3 py-1 bg-gray-200 rounded-xl text-sm font-medium text-gray-700">{{ task.status }}</span>
+    </li>
+  </ul>
+
+  <p *ngIf="tasks.length === 0" class="text-center text-gray-500 mt-8 text-lg">
+    Aucune tâche pour le moment.
+  </p>
 </div>

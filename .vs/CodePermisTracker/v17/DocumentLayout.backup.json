@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Projets\\CodePermisTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -22,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "app.component.ts",
               "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\app.component.ts",
               "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\app.component.ts",
@@ -35,38 +39,49 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-05-08T19:00:29.684Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "main.ts",
               "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\main.ts",
               "RelativeDocumentMoniker": "codepermistracker.client\\src\\main.ts",
               "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\main.ts",
               "RelativeToolTip": "codepermistracker.client\\src\\main.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-05-08T19:02:38.664Z",
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "conduite.component.html",
-              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
-              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
-              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
-              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
-              "ViewState": "AgIAADYAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-09T10:49:07.987Z",
+              "Title": "dashboard.component.ts",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.ts",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.ts",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.ts",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-10T17:59:22.776Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dashboard.component.html",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.html",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.html",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.html",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\dashboard\\dashboard.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-10T17:51:44.329Z"
             }
           ]
         }

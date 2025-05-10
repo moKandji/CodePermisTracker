@@ -9,3 +9,4 @@ C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermi
 C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\refint\codepermistracker.domain.dll
 C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.pdb
 C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\ref\codepermistracker.domain.dll
+C:\Projets\CodePermisTracker\codepermistracker.domain\obj\Debug\net8.0\codepermistracker.domain.sourcelink.json

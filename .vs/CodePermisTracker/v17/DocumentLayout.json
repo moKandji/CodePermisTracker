@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Projets\\CodePermisTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\admin\\admin.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\admin\\admin.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\admin\\admin.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\admin\\admin.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\code\\code.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\code\\code.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\code\\code.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\code\\code.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\shared\\header\\header.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\shared\\header\\header.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|c:\\projets\\codepermistracker\\codepermistracker.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{366FBF4C-DC96-4057-A8F1-968E2D204A82}|codepermistracker.client\\codepermistracker.client.esproj|solutionrelative:codepermistracker.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -18,15 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "app.component.ts",
               "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\app.component.ts",
               "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\app.component.ts",
@@ -40,16 +64,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "main.ts",
               "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\main.ts",
               "RelativeDocumentMoniker": "codepermistracker.client\\src\\main.ts",
               "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\main.ts",
               "RelativeToolTip": "codepermistracker.client\\src\\main.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-05-08T19:02:38.664Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "admin.component.html",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\admin\\admin.component.html",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\admin\\admin.component.html",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\admin\\admin.component.html",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\admin\\admin.component.html",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-10T21:21:34.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "admin.component.css",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\admin\\admin.component.css",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\admin\\admin.component.css",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\admin\\admin.component.css",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\admin\\admin.component.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-10T21:21:31.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "code.component.css",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\code\\code.component.css",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\code\\code.component.css",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\code\\code.component.css",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\code\\code.component.css",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-10T21:20:02.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "code.component.html",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\code\\code.component.html",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\code\\code.component.html",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\code\\code.component.html",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\code\\code.component.html",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-10T21:18:51.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "header.component.css",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\shared\\header\\header.component.css",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\shared\\header\\header.component.css",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\shared\\header\\header.component.css",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\shared\\header\\header.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-10T21:09:50.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "conduite.component.css",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.css",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.css",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.css",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.css",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwEMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-10T21:08:27.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "conduite.component.html",
+              "DocumentMoniker": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
+              "RelativeDocumentMoniker": "codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
+              "ToolTip": "C:\\Projets\\CodePermisTracker\\codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
+              "RelativeToolTip": "codepermistracker.client\\src\\app\\features\\conduite\\conduite.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-10T21:07:39.884Z",
+              "EditorCaption": ""
             }
           ]
         }

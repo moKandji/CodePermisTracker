@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("codepermistracker.domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+889ca3b8a4e95f47a72d17f6ef99c3e58f64c343")]
 [assembly: System.Reflection.AssemblyProductAttribute("codepermistracker.domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("codepermistracker.domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
